@@ -1,4 +1,3 @@
-# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Example Home Assistant add-on repository
-url: 'https://github.com/home-assistant/addons-example'
-maintainer: Awesome Maintainer <awesome@example.com>
+name: Home Assistant add-on repository for Scrypted
+url: "https://github.com/ggravlingen/ha-addon-scrypted"
+maintainer: Ggravlingen

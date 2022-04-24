@@ -1,0 +1,7 @@
+#!/usr/bin/with-contenv bashio
+# ==============================================================================
+# Home Assistant Community Add-on: Log Viewer
+# Runs the Log Viewer
+# ==============================================================================
+bashio::log.info "Starting Scrypted..."
+cd /server && npm exec scrypted-serve
