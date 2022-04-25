@@ -53,12 +53,14 @@ RUN \
 # This file is installed by NGINX as a default but we don't need it
 RUN rm -rf /etc/nginx/sites-enabled/default
 
-# Copy root filesystem
-COPY rootfs /
-
 # Install Scrypted
 WORKDIR /
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 RUN npx -y scrypted install-server
+
+RUN echo "1"
+
+# Copy root filesystem
+COPY rootfs /
 
 ENTRYPOINT ["/init"]
