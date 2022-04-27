@@ -5,7 +5,6 @@ description: Add-on to run Scrypted, focusing on making camera experiences seaml
 url: "https://github.com/ggravlingen/ha-addon-scrypted"
 arch:
   - amd64
-  - i386
   - armhf
   - armv7
   - aarch64
