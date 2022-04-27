@@ -6,7 +6,6 @@ url: "https://github.com/ggravlingen/ha-addon-scrypted"
 arch:
   - amd64
   - armhf
-  - armv7
   - aarch64
 init: false
 ingress: true
