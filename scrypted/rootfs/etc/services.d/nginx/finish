@@ -1,7 +1,7 @@
-#!/usr/bin/execlineb -S1
+#!/usr/bin/execlineb -S0
 # ==============================================================================
-# Take down the S6 supervision tree when example fails
-# s6-overlay docs: https://github.com/just-containers/s6-overlay
+# Home Assistant Community Add-on: Log Viewer
+# Take down the S6 supervision tree when Nginx fails
 # ==============================================================================
 if { s6-test ${1} -ne 0 }
 if { s6-test ${1} -ne 256 }
