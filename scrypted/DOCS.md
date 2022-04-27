@@ -2,8 +2,9 @@
 
 ## How to use
 
-Install the add-on.
+Install the add-on, create an account and log in.
 
 ## Caveats
 
-Even though it says all platforms are supported, I've only tried this on my AMD-based laptop and on a Raspberry 3. I've enabled all platforms so that other users can install the add-on and report back any findings of what works and what doesn't.
+- Even though it says all platforms are supported, I've only tried this on my AMD-based laptop and on a Raspberry 3. I've enabled all platforms so that other users can install the add-on and report back any findings of what works and what doesn't.
+- While this is based on Scrypted's official image, some things are built locally. It might take a few minutes before the add-on starts.

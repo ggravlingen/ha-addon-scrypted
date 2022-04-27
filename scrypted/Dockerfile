@@ -58,8 +58,6 @@ WORKDIR /
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 RUN npx -y scrypted install-server
 
-RUN echo "1"
-
 # Copy root filesystem
 COPY rootfs /
 
