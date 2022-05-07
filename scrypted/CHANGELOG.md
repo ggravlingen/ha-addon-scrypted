@@ -1,3 +1,8 @@
+## 1.0.3
+
+- Persist data between reboots.
+- Expose to host network.
+
 ## 1.0.2
 
 - Added shell support.
