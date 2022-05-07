@@ -16,5 +16,3 @@ map:
   - config:rw
 environment:
   SCRYPTED_VOLUME: "/config/data_scrypted"
-# Experimental: will this expose Homekit?
-host_network: true
