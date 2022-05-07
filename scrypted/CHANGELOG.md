@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Persist data between reboots.
+
 ## 1.0.2
 
 - Added shell support.

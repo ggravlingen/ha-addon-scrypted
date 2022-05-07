@@ -1,5 +1,5 @@
 name: Scrypted
-version: "1.0.2"
+version: "1.0.3"
 slug: ggravlingen_scrypted
 description: Add-on to run Scrypted, focusing on making camera experiences seamless
 url: "https://github.com/ggravlingen/ha-addon-scrypted"
@@ -12,3 +12,7 @@ ingress_port: 80
 panel_icon: mdi:camera-wireless
 hassio_api: true
 image: "ghcr.io/ggravlingen/{arch}-ha-addon-scrypted"
+map:
+  - config:rw
+environment:
+  SCRYPTED_VOLUME: "/config/data_scrypted"

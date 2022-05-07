@@ -8,4 +8,4 @@ labels:
   org.opencontainers.image.source: "https://github.com/ggravlingen/ha-addon-scrypted"
   org.opencontainers.image.licenses: "Apache"
   org.opencontainers.image.lib_version: 0.0.244
-  org.opencontainers.image.version: 1.0.2
+  org.opencontainers.image.version: 1.0.3
