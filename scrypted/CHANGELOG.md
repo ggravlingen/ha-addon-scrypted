@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Added shell support.
+
 ## 1.0.1
 
 - Removed irrelevant information in docs.
