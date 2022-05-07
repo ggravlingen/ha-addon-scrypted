@@ -1,7 +1,11 @@
+## 1.0.4
+
+- Allow logging out.
+
 ## 1.0.3
 
 - Persist data between reboots.
-- Expose to host network.
+- Expose to host network [errata: this feature was never added in this version].
 
 ## 1.0.2
 
