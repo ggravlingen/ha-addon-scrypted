@@ -7,3 +7,5 @@ Add-on that runs a local [Scrypted server](https://github.com/koush/scrypted).
 
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
+
+Note that due to dependencies used by the server, the image file is quite large (about 3 GB).
