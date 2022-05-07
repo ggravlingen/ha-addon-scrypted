@@ -10,6 +10,9 @@ ARG S6_OVERLAY_VERSION
 ARG TEMPIO_VERSION
 ARG BUILD_ARCH
 
+# Make sure we run production build
+ENV NODE_ENV production
+
 # Install Nginx and a set of Home Assistant add-on tools
 RUN \
     set -x \
@@ -55,7 +58,6 @@ RUN rm -rf /etc/nginx/sites-enabled/default
 
 # Install Scrypted
 WORKDIR /
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 RUN npx -y scrypted install-server
 
 # Copy root filesystem

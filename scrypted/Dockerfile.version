@@ -1,0 +1,2 @@
+# Dockerfile used to track the version of the library using Dependabot
+ghcr.io/koush/scrypted:v0.0.175
