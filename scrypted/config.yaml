@@ -21,3 +21,4 @@ schema:
   certfile: str
   keyfile: str
 hassio_api: true
+image: "ghcr.io/ggravlingen/{arch}-scrypted"
