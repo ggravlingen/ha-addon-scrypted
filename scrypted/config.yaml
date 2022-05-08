@@ -1,5 +1,5 @@
 name: Scrypted
-version: "1.0.4"
+version: "1.0.5"
 slug: ggravlingen_scrypted
 description: Add-on to run Scrypted, focusing on making camera experiences seamless
 url: "https://github.com/ggravlingen/ha-addon-scrypted"
@@ -11,8 +11,14 @@ ingress: true
 ingress_port: 80
 panel_icon: mdi:camera-wireless
 hassio_api: true
+ingress_stream: true
 image: "ghcr.io/ggravlingen/{arch}-ha-addon-scrypted"
 map:
   - config:rw
 environment:
   SCRYPTED_VOLUME: "/config/data_scrypted"
+#  SCRYPTED_HTTPS_OPTIONS_FILE: "/config/data_scrypted/options.json"
+#ports:
+#  10444/tcp: 10444
+#ports_description:
+#  10444/tcp: "Homekit"
