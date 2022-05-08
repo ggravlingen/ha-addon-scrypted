@@ -1,3 +1,8 @@
+## 1.0.5
+
+- Fix shell bug.
+- Enable ingress streaming.
+
 ## 1.0.4
 
 - Allow logging out.
